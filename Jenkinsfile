@@ -12,11 +12,10 @@ pipeline {
         sh "python3 eprofile.py"
       } 
     }
-    stage ('test') {
+   stage ('test') {
       steps {
         sh "echo Run a command"
       }
-    
     }
   }
 }
