@@ -17,8 +17,10 @@ subjects = ["Mathematics",  "English"]
 for x in subjects:
     print(x.upper())
     if "English" in x:
-        print("There are a million words I can think of that stats with the letter A")
+        print("There are a million words I can think of that starts with the letter A")
     elif "Geography" in x:
         print("Tectonic plates ")
     if "Mathematics" in x:
         print(28890 * 6789 / (145 * 23))
+
+
