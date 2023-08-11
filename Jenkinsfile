@@ -14,7 +14,7 @@ pipeline {
     }
     stage ('test') {
       steps {
-        sh "echo Jenkinsfile did not work!"
+        sh "echo Run a command"
       }
     
     }
