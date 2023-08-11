@@ -2,14 +2,14 @@ pipeline {
   agent any
 
   stages {
-    stage ('Build') {
+    stage ('Version') {
       steps {
-        sh "echo Welcome! Add your profile to Our Database"
+        sh "echo python3 --version"
      }
    }
     stage('Run Employee Profile Script'){
       steps{
-        sh "eprofile.py"
+        sh "python3 eprofile.py"
       } 
     }
     stage ('test') {
